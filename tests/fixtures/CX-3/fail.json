@@ -1,0 +1,68 @@
+{
+  "gate": "G3",
+  "rule": "CX-3",
+  "expect": "fail",
+  "files": {
+    "3-spec/screen-spec.md": "# 화면 설계서\n",
+    "3-spec/required-layers.json": {
+      "K1": [
+        "nav-pill",
+        "home-hero"
+      ],
+      "K2": [
+        "visibility-segmented",
+        "asset-card/approved"
+      ],
+      "K3": [
+        "review-checklist",
+        "button-approve"
+      ]
+    },
+    "3-spec/flows.json": {
+      "nodes": [
+        {
+          "id": "sale_request"
+        },
+        {
+          "id": "admin_review"
+        },
+        {
+          "id": "revision_requested"
+        },
+        {
+          "id": "approved"
+        },
+        {
+          "id": "rejected"
+        }
+      ],
+      "edges": [
+        [
+          "sale_request",
+          "admin_review"
+        ],
+        [
+          "admin_review",
+          "approved"
+        ],
+        [
+          "admin_review",
+          "revision_requested"
+        ],
+        [
+          "revision_requested",
+          "sale_request"
+        ],
+        [
+          "admin_review",
+          "rejected"
+        ],
+        [
+          "sale_request",
+          "approved"
+        ]
+      ]
+    }
+  },
+  "state": []
+}

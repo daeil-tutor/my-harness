@@ -1,0 +1,69 @@
+{
+  "gate": "G6",
+  "rule": "G6-1",
+  "expect": "pass",
+  "files": {
+    "6a-system/tokens.json": {
+      "colors": {
+        "ink": {
+          "$value": "#141414"
+        },
+        "canvas": {
+          "$value": "#ffffff"
+        },
+        "accent": {
+          "$value": "#0066ff"
+        }
+      },
+      "rounded": {
+        "sm": {
+          "$value": 16
+        },
+        "md": {
+          "$value": 24
+        },
+        "full": {
+          "$value": 9999
+        }
+      },
+      "spacing": {
+        "xs": {
+          "$value": "8px"
+        },
+        "md": {
+          "$value": "16px"
+        }
+      },
+      "typography": {
+        "heading-1": {
+          "fontFamily": "Pretendard",
+          "fontWeight": 700,
+          "letterSpacing": 0
+        }
+      },
+      "app-icon": {
+        "radius": "30%"
+      }
+    },
+    "6a-system/components.json": {
+      "button-primary": {
+        "fill": "{colors.ink}",
+        "radius": 9999,
+        "padding": [
+          0,
+          16
+        ]
+      },
+      "segmented-control-active": {
+        "shadow": "0 1px 2px rgba(20,20,20,0.08)"
+      },
+      "card": {
+        "stroke": "#f0f0f0",
+        "radius": 24,
+        "padding": 24,
+        "shadow": "none"
+      }
+    }
+  },
+  "state": []
+}

@@ -1,0 +1,509 @@
+{
+  "gate": "G4",
+  "rule": "C4-1",
+  "expect": "fail",
+  "files": {
+    "4-keyscreen/snapshot.json": {
+      "screens": [
+        {
+          "id": "K1",
+          "name": "K1",
+          "width": 390,
+          "height": 800,
+          "fills": [
+            {
+              "color": "#ffffff"
+            }
+          ],
+          "children": [
+            {
+              "name": "nav-pill",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "logo",
+                  "type": "TEXT",
+                  "text": "허들링",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 700,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#f3f3f3"
+                }
+              ],
+              "cornerRadius": 9999
+            },
+            {
+              "name": "home-hero",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "title",
+                  "type": "TEXT",
+                  "text": "AI 실무 실험실",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 700,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "lead",
+                  "type": "TEXT",
+                  "text": "배우고, 적용하고, 자산으로",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 300,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K2",
+          "name": "K2",
+          "width": 390,
+          "height": 844,
+          "fills": [
+            {
+              "color": "#ffffff"
+            }
+          ],
+          "children": [
+            {
+              "name": "visibility-segmented",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "opt1",
+                  "type": "TEXT",
+                  "text": "비공개",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "opt2",
+                  "type": "TEXT",
+                  "text": "멤버 공개",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "opt3",
+                  "type": "TEXT",
+                  "text": "판매 신청",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "status-legend",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "s1",
+                  "type": "TEXT",
+                  "text": "임시저장",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "s2",
+                  "type": "TEXT",
+                  "text": "검수 대기",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "s3",
+                  "type": "TEXT",
+                  "text": "수정 요청",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "s4",
+                  "type": "TEXT",
+                  "text": "승인됨",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "s5",
+                  "type": "TEXT",
+                  "text": "반려",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "asset-card/approved",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "title",
+                  "type": "TEXT",
+                  "text": "QA 자동화 스킬",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "status",
+                  "type": "TEXT",
+                  "text": "승인됨",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "price",
+                  "type": "TEXT",
+                  "text": "19,000원",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "asset-card/pending",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "title",
+                  "type": "TEXT",
+                  "text": "회의록 요약 프롬프트",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "status",
+                  "type": "TEXT",
+                  "text": "검수 대기",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "K3",
+          "name": "K3",
+          "width": 390,
+          "height": 844,
+          "fills": [
+            {
+              "color": "#ffffff"
+            }
+          ],
+          "children": [
+            {
+              "name": "review-checklist",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "c1",
+                  "type": "TEXT",
+                  "text": "실제 업무에 써본 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c2",
+                  "type": "TEXT",
+                  "text": "결과 예시가 있는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c3",
+                  "type": "TEXT",
+                  "text": "사용 방법이 명확한 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c4",
+                  "type": "TEXT",
+                  "text": "초보자가 따라할 수 있는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c5",
+                  "type": "TEXT",
+                  "text": "툴/버전/환경 조건이 적혀 있는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c6",
+                  "type": "TEXT",
+                  "text": "개인정보/고객정보/회사기밀이 없는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c7",
+                  "type": "TEXT",
+                  "text": "저작권 문제가 없는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                },
+                {
+                  "name": "c8",
+                  "type": "TEXT",
+                  "text": "구매자가 바로 써볼 수 있는 것",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button-approve",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "승인",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button-revise",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "수정 요청",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button-reject",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "반려",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3-spec/required-layers.json": {
+      "K1": [
+        "nav-pill",
+        "home-hero"
+      ],
+      "K2": [
+        "visibility-segmented",
+        "asset-card/approved"
+      ],
+      "K3": [
+        "review-checklist",
+        "button-approve"
+      ]
+    }
+  },
+  "state": []
+}

@@ -1,0 +1,21 @@
+{
+  "gate": "G5",
+  "rule": "G5-1",
+  "expect": "fail",
+  "files": {
+    "5-concept/approval.json": {
+      "date": "2026-09-29",
+      "chosen": "A안"
+    }
+  },
+  "state": [
+    {
+      "step": "4",
+      "gate_id": "G4",
+      "gate": "pass",
+      "cx": 0,
+      "input_hash": "x",
+      "at": "2026-09-29"
+    }
+  ]
+}

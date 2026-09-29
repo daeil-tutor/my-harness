@@ -1,0 +1,207 @@
+{
+  "gate": "G2",
+  "rule": "C2-2",
+  "expect": "fail",
+  "files": {
+    "1-reference/references.json": [
+      {
+        "app": "앱A",
+        "ui_url": "https://www.uibowl.io/ui/1",
+        "screen_type": "홈",
+        "point": "반영 포인트 1",
+        "keyscreen": "K1"
+      },
+      {
+        "app": "앱B",
+        "ui_url": "https://www.uibowl.io/ui/2",
+        "screen_type": "홈",
+        "point": "반영 포인트 2",
+        "keyscreen": "K1"
+      },
+      {
+        "app": "앱C",
+        "ui_url": "https://www.uibowl.io/ui/3",
+        "screen_type": "홈",
+        "point": "반영 포인트 3",
+        "keyscreen": "K1"
+      },
+      {
+        "app": "앱D",
+        "ui_url": "https://www.uibowl.io/ui/4",
+        "screen_type": "홈",
+        "point": "반영 포인트 4",
+        "keyscreen": "K1"
+      },
+      {
+        "app": "앱E",
+        "ui_url": "https://www.uibowl.io/ui/5",
+        "screen_type": "홈",
+        "point": "반영 포인트 5",
+        "keyscreen": "K1"
+      },
+      {
+        "app": "앱A",
+        "ui_url": "https://www.uibowl.io/ui/6",
+        "screen_type": "홈",
+        "point": "반영 포인트 6",
+        "keyscreen": "K2"
+      },
+      {
+        "app": "앱B",
+        "ui_url": "https://www.uibowl.io/ui/7",
+        "screen_type": "홈",
+        "point": "반영 포인트 7",
+        "keyscreen": "K2"
+      },
+      {
+        "app": "앱C",
+        "ui_url": "https://www.uibowl.io/ui/8",
+        "screen_type": "홈",
+        "point": "반영 포인트 8",
+        "keyscreen": "K2"
+      },
+      {
+        "app": "앱D",
+        "ui_url": "https://www.uibowl.io/ui/9",
+        "screen_type": "홈",
+        "point": "반영 포인트 9",
+        "keyscreen": "K2"
+      },
+      {
+        "app": "앱E",
+        "ui_url": "https://www.uibowl.io/ui/10",
+        "screen_type": "홈",
+        "point": "반영 포인트 10",
+        "keyscreen": "K2"
+      },
+      {
+        "app": "앱A",
+        "ui_url": "https://www.uibowl.io/ui/11",
+        "screen_type": "홈",
+        "point": "반영 포인트 11",
+        "keyscreen": "K3"
+      },
+      {
+        "app": "앱B",
+        "ui_url": "https://www.uibowl.io/ui/12",
+        "screen_type": "홈",
+        "point": "반영 포인트 12",
+        "keyscreen": "K3"
+      },
+      {
+        "app": "앱C",
+        "ui_url": "https://www.uibowl.io/ui/13",
+        "screen_type": "홈",
+        "point": "반영 포인트 13",
+        "keyscreen": "K3"
+      },
+      {
+        "app": "앱D",
+        "ui_url": "https://www.uibowl.io/ui/14",
+        "screen_type": "홈",
+        "point": "반영 포인트 14",
+        "keyscreen": "K3"
+      },
+      {
+        "app": "앱E",
+        "ui_url": "https://www.uibowl.io/ui/15",
+        "screen_type": "홈",
+        "point": "반영 포인트 15",
+        "keyscreen": "K3"
+      }
+    ],
+    "2-analysis/points.json": [
+      {
+        "keyscreen": "K1",
+        "point": "K1 카드 위계 정리 1",
+        "prd_ref": [
+          "6장"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/1"
+        ]
+      },
+      {
+        "keyscreen": "K1",
+        "point": "K1 카드 위계 정리 2",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/2"
+        ]
+      },
+      {
+        "keyscreen": "K1",
+        "point": "K1 카드 위계 정리 3",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/3"
+        ]
+      },
+      {
+        "keyscreen": "K2",
+        "point": "K2 카드 위계 정리 1",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/6"
+        ]
+      },
+      {
+        "keyscreen": "K2",
+        "point": "K2 카드 위계 정리 2",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/7"
+        ]
+      },
+      {
+        "keyscreen": "K2",
+        "point": "K2 카드 위계 정리 3",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/8"
+        ]
+      },
+      {
+        "keyscreen": "K3",
+        "point": "K3 카드 위계 정리 1",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/11"
+        ]
+      },
+      {
+        "keyscreen": "K3",
+        "point": "K3 카드 위계 정리 2",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/12"
+        ]
+      },
+      {
+        "keyscreen": "K3",
+        "point": "K3 카드 위계 정리 3",
+        "prd_ref": [
+          "6-5"
+        ],
+        "ui_url": [
+          "https://www.uibowl.io/ui/13"
+        ]
+      }
+    ]
+  },
+  "state": []
+}

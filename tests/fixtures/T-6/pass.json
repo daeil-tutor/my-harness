@@ -1,0 +1,258 @@
+{
+  "gate": "G7",
+  "rule": "T-6",
+  "expect": "pass",
+  "files": {
+    "6b-screens/snapshot.json": {
+      "screens": [
+        {
+          "id": "S01",
+          "name": "S01",
+          "width": 390,
+          "height": 844,
+          "fills": [
+            {
+              "color": "#ffffff"
+            }
+          ],
+          "children": [
+            {
+              "name": "card/skill",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "title",
+                  "type": "TEXT",
+                  "text": "스킬 카드",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 700,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#ffffff"
+                }
+              ],
+              "strokes": [
+                {
+                  "color": "#f0f0f0",
+                  "weight": 1
+                }
+              ],
+              "cornerRadius": 24,
+              "padding": [
+                24,
+                24,
+                24,
+                24
+              ],
+              "itemSpacing": 8
+            },
+            {
+              "name": "text-input/search",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "placeholder",
+                  "type": "TEXT",
+                  "text": "스킬 검색",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#f0f0f0"
+                }
+              ],
+              "cornerRadius": 16,
+              "padding": [
+                12,
+                16,
+                12,
+                16
+              ]
+            },
+            {
+              "name": "button-primary",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "시작하기",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#ffffff"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#141414"
+                }
+              ],
+              "cornerRadius": 9999,
+              "padding": [
+                0,
+                16,
+                0,
+                16
+              ]
+            },
+            {
+              "name": "badge-popular",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "인기",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#ffffff"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#0066ff"
+                }
+              ],
+              "cornerRadius": 9999
+            },
+            {
+              "name": "app-icon/figma",
+              "type": "FRAME",
+              "children": [],
+              "width": 48,
+              "height": 48,
+              "cornerRadius": 14.4
+            },
+            {
+              "name": "segmented-control-active",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "월간",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 400,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#141414"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#ffffff"
+                }
+              ],
+              "cornerRadius": 9999,
+              "effects": [
+                {
+                  "type": "DROP_SHADOW",
+                  "visible": true
+                }
+              ]
+            },
+            {
+              "name": "badge-overlay",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "label",
+                  "type": "TEXT",
+                  "text": "자동화",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 600,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#ffffff"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#737373",
+                  "opacity": 0.56
+                }
+              ],
+              "cornerRadius": 9999
+            },
+            {
+              "name": "footer",
+              "type": "FRAME",
+              "children": [
+                {
+                  "name": "wordmark",
+                  "type": "TEXT",
+                  "text": "허들링",
+                  "fontFamily": "Pretendard",
+                  "fontWeight": 700,
+                  "fontSize": 15,
+                  "letterSpacing": 0,
+                  "fills": [
+                    {
+                      "color": "#ffffff"
+                    }
+                  ]
+                }
+              ],
+              "fills": [
+                {
+                  "color": "#141414"
+                }
+              ],
+              "cornerRadius": [
+                24,
+                24,
+                0,
+                0
+              ],
+              "padding": [
+                48,
+                16,
+                48,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "state": []
+}
